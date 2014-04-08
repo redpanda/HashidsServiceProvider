@@ -31,6 +31,6 @@ class HashidsServiceProviderTest extends \PHPUnit_Framework_TestCase
         $numbers = $app['hashids']['foo']->decrypt($hash);
 
         $this->assertTrue(is_string($hash));
-        $this->assertSame([1,2,3], $numbers);
+        $this->assertSame(array(1,2,3), $numbers);
     }
 }
