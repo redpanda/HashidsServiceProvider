@@ -1,6 +1,6 @@
-# Hashids Silex ServiceProvider
+# HashidsServiceProvider
 
-[![Build Status](https://travis-ci.org/redpanda/HashidsSilexServiceProvider.png)](https://travis-ci.org/redpanda/HashidsSilexServiceProvider)
+[![Build Status](https://travis-ci.org/redpanda/HashidsServiceProvider.png)](https://travis-ci.org/redpanda/HashidsServiceProvider)
 
 ## Usage
 
