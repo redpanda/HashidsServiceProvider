@@ -1,0 +1,19 @@
+{
+    "name": "redpanda/hashids-service-provider",
+    "description": "Hashids for Silex",
+    "keywords": ["silex", "hashids"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jimmy Leger",
+            "email": "jimmy.leger@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "silex/silex": "~1.0",
+        "hashids/hashids": "0.3.*@dev"
+    }
+}
