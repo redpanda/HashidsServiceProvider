@@ -12,10 +12,12 @@ use Symfony\Component\HttpFoundation\Request;
 $app = new Application();
 
 $app->register(new HashidsServiceProvider(), array(
-    'post' => array(
-        'salt' => 'mySalt',
-        'min_hash_length' => 5,
-        'alphabet' => ''
+    'hashids.options' => array(
+        'post' => array(
+            'salt' => 'mySalt',
+            'min_hash_length' => 5,
+            'alphabet' => ''
+        )
     )
 ));
 
